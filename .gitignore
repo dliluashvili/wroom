@@ -1,0 +1,35 @@
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+.env
+*.env
+.env.*
+!.env.example
+
+# SvelteKit (client folder)
+client/node_modules/
+client/.svelte-kit/
+client/build/
+client/dist/
+client/.env
+client/vite.config.ts.timestamp*
+client/*cache*/
+
+# Crystal (server folder)
+server/.shards/
+server/libs/
+server/lib/
+server/bin/
+server/*.dwarf
+server/*.o
+server/doc/
+server/tmp/
+server/*_cache/
+
+# Other common ignores
+.idea/
+.vscode/
+*.code-workspace
+coverage/

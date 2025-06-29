@@ -1,0 +1,19 @@
+name: server
+version: 0.1.0
+
+authors:
+  - dliluashvili <david.liluashvili@nexus.ge>
+
+targets:
+  server:
+    main: src/server.cr
+
+crystal: '>= 1.15.1'
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  pg:
+    github: will/crystal-pg
