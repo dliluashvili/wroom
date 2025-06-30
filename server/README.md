@@ -1,27 +1,15 @@
-# server
+## 🧪 Local Setup
 
-TODO: Write a description here
+1. Make sure [Crystal](https://crystal-lang.org/) is installed.
 
-## Installation
+2. Instruction:
 
-TODO: Write installation instructions here
+```bash
+shards install
+```
 
-## Usage
+```bash
+crystal run src/server.cr
+```
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/server/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [dliluashvili](https://github.com/your-github-user) - creator and maintainer
+Server runs by default at http://0.0.0.0:3000.
