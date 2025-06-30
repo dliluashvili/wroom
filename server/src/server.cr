@@ -4,7 +4,9 @@ require "./services/**"
 require "./repositories/**"
 require "./models/**"
 require "kemal"
+require "dotenv"
 
+Dotenv.load
 
 module WatchingRoom
   Database.setup
